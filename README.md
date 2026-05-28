@@ -32,7 +32,7 @@ cd WhatsApp-Bot
 
 2. Install dependencies
 ```bash
-pip install -r requirements.txt
+npm install -r requirements.txt
 ```
 
 3. Configure your WhatsApp credentials

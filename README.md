@@ -8,19 +8,18 @@ This project implements an intelligent WhatsApp bot that learns from your previo
 
 ## Features
 
-- 📱 **WhatsApp Integration** - Seamlessly integrates with WhatsApp messaging
-- 🤖 **AI-Powered Responses** - Uses chat history analysis to generate realistic responses
-- 💬 **Style Mimicry** - Learns and replicates your unique communication style
-- 📊 **Chat History Analysis** - Analyzes patterns in your previous conversations
-- 🔄 **Real-time Processing** - Processes messages and generates responses in real-time
+-  **WhatsApp Integration** - Seamlessly integrates with WhatsApp messaging
+-  **AI-Powered Responses** - Uses chat history analysis to generate realistic responses
+-  **Style Mimicry** - Learns and replicates your unique communication style
+-  **Chat History Analysis** - Analyzes patterns in your previous conversations
+-  **Real-time Processing** - Processes messages and generates responses in real-time
 
 ## Getting Started
 
 ### Prerequisites
 
-- Python 3.7+
+- node.js
 - WhatsApp account
-- Required dependencies (see `requirements.txt`)
 
 ### Installation
 
@@ -32,7 +31,7 @@ cd WhatsApp-Bot
 
 2. Install dependencies
 ```bash
-npm install -r requirements.txt
+npm install 
 ```
 
 3. Configure your WhatsApp credentials
@@ -44,28 +43,12 @@ cp .env.example .env
 
 4. Run the bot
 ```bash
-python main.py
+cd /bot/src
+node index.js
 ```
 
-## Project Structure
 
-```
-WhatsApp-Bot/
-├── README.md
-├── requirements.txt
-├── main.py
-├── src/
-│   ├── bot.py
-│   ├── analyzer.py
-│   └── utils.py
-├── data/
-│   └── chat_history/
-└── .env.example
-```
 
-## Usage
-
-[Add usage instructions and examples here]
 
 ## How It Works
 
@@ -86,9 +69,7 @@ Edit the `.env` file to configure:
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
 
-[Specify your license here, e.g., MIT, Apache 2.0, etc.]
 
 ## Disclaimer
 
